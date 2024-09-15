@@ -31,6 +31,10 @@
                 ties: 0
             };
 
+            document.querySelector('.js-score').innerHTML = `Wins: ${score.wins}, Losses: ${score.loses}, Ties: ${score.ties}`;
+            document.querySelector('.js-result').innerHTML = '';
+            document.querySelector('.js-moves').innerHTML = '';
+
             function resetScore(){
                 score.wins = 0;
                 score.loses = 0;
