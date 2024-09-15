@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(25 25 25);
+    color: white;
+    font-family: arial;
+}
+
+.title{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.move-btn{
+    background-color: rgb(24 24 24);
+    border: 3px solid white;
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    margin-right: 15px;
+}
+
+.move-img{
+    height: 50px;
+    background-color: transparent;
+}
+
+.result{
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.score{
+    margin-top: 60px;
+}
+
+.reset-btn,
+.autoplay-btn,
+.confirm-yes-btn,
+.confirm-no-btn{
+    padding-block: 8px;
+    padding-inline: 15px;
+    border: none;
+    font-size: 15px;
+}
+
+.confirmationMessage{
+    margin-top: 50px;
+}
+
+.confirm-no-btn,
+.confirm-yes-btn{
+    margin-left: 5px;
+}
