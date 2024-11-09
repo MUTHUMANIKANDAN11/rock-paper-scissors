@@ -26,7 +26,7 @@ function resetScore(){
         score.loses = 0;
         score.ties = 0;
 
-        document.querySelector('.js-score').innerHTML = `Wins: ${score.wins}, Losses: ${score.loses}, Ties: ${score.ties}`;
+        document.querySelector('.js-score').innerHTML = `Wins: ${lowercase(score.wins)}, Losses: ${score.loses}, Ties: ${score.ties}`;
         document.querySelector('.js-result').innerHTML = '';
         document.querySelector('.js-moves').innerHTML = '';
 
